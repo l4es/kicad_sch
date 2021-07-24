@@ -1,0 +1,41 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#(c) SnapEDA 2016 (snapeda.com)
+#This work is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License (CC BY-SA) with Design Exception 1.0
+#
+# AO7400
+#
+DEF AO7400 U 0 40 N N 1 L N
+F0 "U" 200 0 50 H V L BNN
+F1 "AO7400" 200 -100 50 H V L BNN
+F2 "SOT23-3" 0 0 50 H I L BNN
+F3 "" 0 0 50 H I L BNN
+DRAW
+P 2 0 0 6 -100 -100 -100 100 N
+P 2 0 0 6 -78 27 -78 -33 N
+P 2 0 0 6 -78 -51 -78 -75 N
+P 2 0 0 6 -78 -75 -78 -100 N
+P 2 0 0 6 -78 100 -78 71 N
+P 2 0 0 6 -78 71 -78 43 N
+P 2 0 0 6 -78 -75 0 -75 N
+P 2 0 0 6 0 -75 0 0 N
+P 2 0 0 6 0 0 -48 0 N
+P 2 0 0 6 100 -28 100 -75 N
+P 2 0 0 6 100 -75 0 -75 N
+P 2 0 0 6 -78 71 100 71 N
+P 2 0 0 6 100 71 100 22 N
+P 2 0 0 6 100 22 130 22 N
+P 2 0 0 6 100 22 70 22 N
+P 2 0 0 6 100 100 100 71 N
+P 2 0 0 6 100 -100 100 -75 N
+P 3 0 0 6 70 -28 100 22 130 -28 f
+P 2 0 0 6 130 22 137 29 N
+P 2 0 0 6 63 15 70 22 N
+P 3 0 0 6 -78 0 -48 10 -48 -10 f
+X ~ 1 -200 -100 100 R 40 40 0 0 B 
+X ~ 2 100 -200 100 U 40 40 0 0 B 
+X ~ 3 100 200 100 D 40 40 0 0 B 
+ENDDRAW
+ENDDEF
+#
+# End Library
